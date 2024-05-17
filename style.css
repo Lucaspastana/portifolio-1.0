@@ -70,10 +70,18 @@ section .topo-site{
    
 }
 
+.intro{
+    background-image: url("/img/logo.jpg");
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
 
-    #inicio{
-    width: 626px;
-    height:626px;
+    height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    
    
 }
 
