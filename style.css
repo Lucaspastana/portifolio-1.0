@@ -71,16 +71,21 @@ section .topo-site{
 }
 
 .intro{
-    background-image: url("/img/logo.jpg");
+    background-image: url("img/Design\ sem\ nome\ \(1\).png");
     background-size: contain;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
 
-    height: 500px;
+    height: 600px;
+    width: 400;
+    border: 1px black;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+    padding: 0px;
+    border: 0px;
+    
     
    
 }
@@ -96,12 +101,6 @@ section .topo-site{
 h1{
     background-color: #760cbd;
     align-items: center;
-}
-#inicio{
-    animation: spin 2s linear infinite;
-    transition: 3s;
-    scroll-padding-top:2rem;
-    scroll-behavior: smooth;
 }
 
 
