@@ -2,6 +2,7 @@
 
 *{
     margin: 0;
+    border: 0px;
 }
   nav{
     display: flex;
@@ -14,6 +15,10 @@
     font-family: "Kanit", sans-serif;
     box-shadow: 10px 10px 5px rgb(99, 0, 138);
 
+
+}
+#Logo{
+    color: #ffffff;
 }
 
 a{
@@ -46,22 +51,7 @@ a:hover{
 
 /* INICIANDO BODY*/
 
-.flex{
-    display: flex;
-}
 
-body{
-    background-color: rgb(41, 41, 41);
-    color: white;
-    justify-content:end;
-
-}
-
-h2{
-    text-align: center;
-    font-size: 100px;
-
-}
 
 section .topo-site{
     padding: 40px 4%;
@@ -72,36 +62,27 @@ section .topo-site{
 
 .intro{
     background-image: url("img/Design\ sem\ nome\ \(1\).png");
-    background-size: contain;
+    background-size:cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
 
     height: 600px;
-    width: 400;
-    border: 1px black;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-    padding: 0px;
-    border: 0px;
-    
-    
+	
+	   
    
 }
 
-
-.coteudo{
-    margin-top: 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.titulo{
+    font-size: 50px;
+    font-weight: bold;
+    color: #f0f0f0; 
+    flex-direction: column ;
 }
 
-h1{
-    background-color: #760cbd;
-    align-items: center;
-}
+
+
+
+
 
 
   
