@@ -61,10 +61,14 @@ section .topo-site{
 }
 
 .intro{
-    background-image: url("img/Design\ sem\ nome\ \(1\).png");
+    background-image: url(/img/arte-roxa-liquida-pintando-um-fundo-colorido-abstrato-com-respingos-de-cor-e-pinturas-de-arte-moderna.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
+    display: flex;
+	flex-direction: column;
+	align-items:flex-start;
+	justify-content: center;
 
     height: 600px;
 	
@@ -72,14 +76,21 @@ section .topo-site{
    
 }
 
-.titulo{
+.intro-title{
     font-size: 50px;
     font-weight: bold;
-    color: #f0f0f0; 
+    color: #ffeeee; 
     flex-direction: column ;
+    text-shadow: rgb(145, 48, 255) 7px 5px 20px;
+}
+.intro-text{
+    color: #f0f0f0;
 }
 
-
+#icon-linkedin{
+    color: #f0f0f0;
+    
+}
 
 
 
