@@ -50,6 +50,11 @@ a:hover{
 
 
 /* INICIANDO BODY*/
+*{
+    padding: 0px;
+    border: 0px;
+    
+}
 
 
 
@@ -61,18 +66,19 @@ section .topo-site{
 }
 
 .intro{
+    font-family: "saira", sans-serif;
+    font-size: 3.7rem;
     background-color: #00011a;
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
     display: flex;
-	flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-box-align: start;
 	align-items:center;
-	justify-content:center;
+	justify-content:space-around;
 
     height: 600px;
-	padding: 0 50px;
-    border: 0 15px;
 	   
    
 }
@@ -82,6 +88,7 @@ section .topo-site{
     font-weight: bold;
     color: #ffeeee; 
     flex-direction: column ;
+    
     
     
 }
@@ -109,11 +116,13 @@ section .topo-site{
     text-shadow: rgb(242, 247, 0) 7px 5px 20px;
     color: yellow;
     list-style: none;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: 500;
+
 }
 
 .dinamico li span {
+    
     position: relative;
     display: inline-block; /* Certifique-se de que o span ocupa apenas o espaço do conteúdo */
     overflow: hidden; /* Esconde o conteúdo que ultrapassa a largura do span */
@@ -128,11 +137,38 @@ section .topo-site{
     0% { width: 0; }
     100% { width: 100%; }
 }
-#icon-linkedin{   /*icone do linkedin*/
+#icones-home{   /*icone do linkedin*/
     color: rgb(168, 168, 168);
-    font-size: 40px;
+    font-size: 40px; 
+    margin-left: 2px;
+    margin:  10px 10px 10px;
+  
     
 }
+
+/*2seçao */
+
+.SOBRE{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 11px;
+    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 3rem 0px;
+	   
+
+}
+.txx-person{
+    font-size: 20px;
+    align-items: flex-start;
+    display: flex;
+    
+
+}
+
+
 
 
   
