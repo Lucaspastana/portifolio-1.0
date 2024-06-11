@@ -121,6 +121,7 @@ section .topo-site{
     list-style: none;
     font-size: 30px;
     font-weight: 500;
+    
 
 }
 
@@ -151,12 +152,19 @@ section .topo-site{
     display: flex;
     justify-content:end;
     
+    
 }
 
 .img-topo img {
+    position: relative;
     max-width: 100%;
     height: auto;
     border-radius: 30px;
+    background-color: #f0f0f0;
+    opacity: 0,2;
+    filter: blur(0rem);
+    z-index:1;
+   
 }
 
 .img-topo{
