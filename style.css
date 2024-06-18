@@ -189,14 +189,15 @@ section .topo-site{
 .img-sobre{
     display: flex;
     flex-direction: row;
-    justify-content:end;    
+    justify-content:space-around  
 }
 #japan{
     width: 300px;
     height: auto;
-    border-radius:50000000px 5000000px 50000000px 500000000px;
+   
+    
 }
-.txt-person{
+.interface{
     color: #fff;
     display: flex;
     flex-direction: row;
