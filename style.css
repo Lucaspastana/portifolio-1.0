@@ -189,11 +189,13 @@ section .topo-site{
 .img-sobre{
     display: flex;
     flex-direction: row;
-    justify-content:space-around  
+    justify-content:end;
+    padding: 0 200px;
 }
 #japan{
     width: 300px;
     height: auto;
+   
    
     
 }
