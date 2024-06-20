@@ -53,63 +53,71 @@ a:hover{
 
 
 /* INICIANDO BODY*/
+*{
+    padding: 0px;
+    border: 0px;
+}
 
 section.top-site {
     padding: 40px 4%; 
    }
    
-   .flex {
+.flex{
     Display: Flex;
+    justify-content:space-around;
    }
    
-section.top-site .flex {
-    align-items: end;
-    justify-content: end;
-   }
+   section.topo-site .flex {
+    align-items: center;
+    justify-content: center;
+}
    
 .action{
+    width: 100%;
     Display: Flex;
+    -webkit-box-pack:justify;
     align-items: center;
-    justify-content: space-between;
     font-family: "sans-serif";
     Font-size: 3.7em;
     background-color: #00011a;
     height: 600px;
-    padding: 0 200px;
+    margin: 2rem 0px;
+    border: 0px;
+
 
 }
 
    
 .intro-title {
     display: flex;
+    flex-direction:column;
+    justify-content: center;
+
     
 }
    
 .container {
-    flex: 1; /* Allows the container to take up available space */
-   }
-   
-.box {
-    Display: Flex;
-    flex-direction: row;
-    align-items: start;
-   
-       
+    display: flex;
+    gap: 10px; /* Adjust gap as needed */
 }
+   
+
    
 #icones-home {
     margin-background: 20px; /* Adjust margin as needed */
 }
    
-.img-top img {
+.img-top{
     max-width: 100%; /* Ensures the image is sized correctly */
     height: auto;
+
 }
 
 .intro-title{
     font-size: 50px;
     font-weight: bold;
     color: #ffeeee;
+
        
     
 }
@@ -143,8 +151,7 @@ section.top-site .flex {
 
 }
 
-.dinamico li span {
-    
+.dinamico{  
     position: relative;
     display: inline-block; /* Certifique-se de que o span ocupa apenas o espaço do conteúdo */
     overflow: hidden; /* Esconde o conteúdo que ultrapassa a largura do span */
@@ -160,12 +167,19 @@ section.top-site .flex {
     100% { width: 100%; }
 }
 
-
+.img-topo{
+    flex: 1;
+  
+    
+    
+}
 
 
 .img-topo{
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+    
+
 }
 @keyframes flutuar{
     0%{
