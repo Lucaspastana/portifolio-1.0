@@ -53,46 +53,64 @@ a:hover{
 
 
 /* INICIANDO BODY*/
-*{
-    padding: 0px;
-    border: 0px;
-    
-}
 
-
-
-section .topo-site{
-    padding: 40px 4%;
-    color: #ffffff;
-    justify-content: center;
+section.top-site {
+    padding: 40px 4%; 
+   }
    
-}
-
-.intro{
-    font-family: "saira", sans-serif;
-    font-size: 3.7rem;
+   .flex {
+    Display: Flex;
+   }
+   
+section.top-site .flex {
+    align-items: end;
+    justify-content: end;
+   }
+   
+.action{
+    Display: Flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "sans-serif";
+    Font-size: 3.7em;
     background-color: #00011a;
-    
-    display: flex;
-    flex-direction:column;
-
-
     height: 600px;
-    border: 0px 15px;
-    padding: 0px 200px;
-    
-	   
+    padding: 0 200px;
+
+}
+
    
+.intro-title {
+    display: flex;
+    
+}
+   
+.container {
+    flex: 1; /* Allows the container to take up available space */
+   }
+   
+.box {
+    Display: Flex;
+    flex-direction: row;
+    align-items: start;
+   
+       
+}
+   
+#icones-home {
+    margin-background: 20px; /* Adjust margin as needed */
+}
+   
+.img-top img {
+    max-width: 100%; /* Ensures the image is sized correctly */
+    height: auto;
 }
 
 .intro-title{
     font-size: 50px;
     font-weight: bold;
     color: #ffeeee;
-     
-    
-    
-    
+       
     
 }
 .intro-text{
@@ -141,31 +159,9 @@ section .topo-site{
     0% { width: 0; }
     100% { width: 100%; }
 }
-#icones-home{   /*icone do linkedin*/
-    color: rgb(168, 168, 168);
-    font-size: 40px; 
-    margin-left: 2px;
-    margin:  10px 10px 10px;      
-}
-.img-topo {
-    flex: 1;
-    display: flex;
-    justify-content:end;
-    
-    
-}
 
-.img-topo img {
-    position: relative;
-    max-width: 100%;
-    height: auto;
-    border-radius: 30px;
-    background-color: #f0f0f0;
-    opacity: 0,2;
-    filter: blur(0rem);
-    z-index:1;
-   
-}
+
+
 
 .img-topo{
     position: relative;
