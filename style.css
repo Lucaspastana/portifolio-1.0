@@ -4,56 +4,33 @@
     margin: 0;
     border: 0px;
 }
-
-.up{
-    background-color: #00011a;
-    box-shadow: rgba(61, 61, 61, 0.25) 0px 4px 4px;
-    position: fixed;
-    width: 100%;
-    padding:0.5rem;
-    top: 0px;
-    z-index: 2;
-}
-.centralizer-topo{
+  nav{
     display: flex;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    align-items: center;
-    height: 70px;
+    justify-content:center;
+    align-items:center;
+    background-color: #000000;
+    height: 60px;    
+    border:0px;
+    gap: 40px;
+    font-family: "Kanit", sans-serif;
+    backdrop-filter: blur(30px);
     box-shadow: 0px 0px 30px rgba(227,228,237,0.37);
     border:1.5px solid rgba(255,255,255,0.18);
     padding: 0px;
-    
 }
-
-.centralizer{
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 0 15px;
+#Logo{
+    color: #ffffff;
 }
-*{
-    box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    scroll-padding-top: 2rem;
-
-}
-
-.navbar{
-    display: flex;
-    gap: 1.5rem;
-}
-.ul{
-    list-style: none;
-}
-
-
-
-
-
+a{
+    color:rgb(151, 151, 151);
+    text-decoration: none;
+    justify-content:center;
+    margin: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    }
 a:hover{
     color: #ffffff;
     transform:scale(1.05);
@@ -89,32 +66,32 @@ section.top-site {
 }
    
 .action{
-    width: 100%;
     Display: Flex;
-    -webkit-box-pack:justify;
     align-items: center;
+    justify-content: space-between;
     font-family: "sans-serif";
     Font-size: 3.7em;
     background-color: #00011a;
     height: 600px;
-    margin: 2rem 0px;
-    border: 0px;
-
+    padding: 0 200px;
 
 }
 
    
 .intro-title {
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-
-    
+    display: flex;    
 }
    
 .container {
     display: flex;
     gap: 10px; /* Adjust gap as needed */
+}
+.box {
+    Display: Flex;
+    flex-direction: row;
+    align-items: start;
+
+
 }
    
 
