@@ -217,7 +217,7 @@ section.top-site {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    padding: 0 200px;
+    
 }
 
 #japan {
@@ -237,11 +237,27 @@ section.top-site {
 .txt-person{
     display: flex;
     width: 100%;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: row;
     -webkit-box-pack: center;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+  
 
 }
+.centralizer{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 1px;
+}
+.conteudo{
+    width: 80%;
+    margin:0px auto;
+    display: block;
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 25px;
+}
+
