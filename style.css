@@ -19,7 +19,8 @@ nav {
     border: 1.5px solid rgba(255, 255, 255, 0.18);
     padding: 0px;
 }
-.flex{
+
+.flex {
     display: flex;
     width: 100%;
     min-height: 100vh;
@@ -85,7 +86,7 @@ section.top-site {
     background-color: #00011a;
     height: 600px;
     padding: 0px;
-    
+
 
 }
 
@@ -130,6 +131,8 @@ section.top-site {
 
 .container {
     display: inline-flex;
+
+
 }
 
 .container .estatico {
@@ -158,7 +161,7 @@ section.top-site {
     /* Esconde o conteúdo que ultrapassa a largura do span */
     white-space: nowrap;
     /* Evita quebra de linha */
-    border-right: 1px  solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
     /* Cursor de digitação */
     animation: typing 4s steps(20) 1s 1 normal both, blink 0.7s steps(1) infinite;
 }
@@ -179,11 +182,12 @@ section.top-site {
 
 
 .img-topo {
-     
+
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
 }
-#javinha{
+
+#javinha {
     border-radius: 50px;
 }
 
@@ -198,7 +202,7 @@ section.top-site {
 }
 
 /*2seçao */
-.flex{
+.flex {
     display: flex;
     width: 100%;
     min-height: 100vh;
@@ -208,25 +212,12 @@ section.top-site {
     justify-content: center;
     align-items: center;
 }
+
 .SOBRE {
     background-color: #010a27;
 
 }
 
-.img-sobre {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    
-}
-
-#japan {
-    width: 300px;
-    height: auto;
-
-
-
-}
 
 .interface {
     color: #fff;
@@ -234,7 +225,8 @@ section.top-site {
     flex-direction: row;
     justify-content: center;
 }
-.txt-person{
+
+.txt-person {
     display: flex;
     width: 100%;
     min-height: 50vh;
@@ -244,20 +236,43 @@ section.top-site {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-  
+    grid-template-columns: 2fr 1fr;
+
 
 }
-.centralizer{
+
+.centralizer {
     margin: 0 auto;
     max-width: 1000px;
     padding: 0 1px;
 }
-.conteudo{
+
+.conteudo {
+    font-family: sans-serif;
     width: 80%;
-    margin:0px auto;
-    display: block;
-    text-align: center;
+    margin: 0px auto; 
+    text-align: start;
     color: #f0f0f0;
     font-size: 25px;
+    gap: 1,5rem;
 }
+
+.img-sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    animation: load 10s infinite linear;
+}
+
+#japan {
+    width: 300px;
+    height: auto;
+}
+
+
+@keyframes load {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 
