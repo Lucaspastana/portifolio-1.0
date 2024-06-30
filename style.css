@@ -98,15 +98,19 @@ section.top-site {
     Display: Flex;
     flex-direction: row;
     align-items: start;
+    
 
 
 }
 
 
 
-#icones-home {
+.icones-home {
     margin-background: 20px;
-    /* Adjust margin as needed */
+    display: flex;
+    flex-direction: row;
+
+    
 }
 
 
