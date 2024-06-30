@@ -93,7 +93,7 @@ a:hover {
     -webkit-box-pack: center;
     justify-content: center;
 }
-.namelogocontainer{
+.flex .namelogocontainer{
     width: 100%;
     display: flex;
     -webkit-box-pack: justify;
