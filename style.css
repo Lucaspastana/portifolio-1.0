@@ -93,13 +93,14 @@ a:hover {
     -webkit-box-pack: center;
     justify-content: center;
 }
-.flex .namelogocontainer{
+
+.flex .namelogocontainer {
     width: 100%;
     display: flex;
     -webkit-box-pack: justify;
     justify-content: space-between;
     -webkit-box-align: center;
-    align-items:center;
+    align-items: center;
     margin: 2rem 0px;
 }
 
@@ -159,7 +160,7 @@ a:hover {
     font-size: 2rem;
     margin-top: -1.5rem;
     font-weight: 500;
-    margin-left:  5px;
+    margin-left: 5px;
     opacity: 1;
 }
 
@@ -180,14 +181,43 @@ a:hover {
 
 
 @keyframes typing {
-    from { width: 0; }
-    to { width: 100%; }
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
 
 
 .logus {
     position: relative;
-    display: flex;
+    width: 400px;  /* Certifique-se de que o tamanho do contêiner seja apropriado */
+    height: 380px; /* Certifique-se de que o tamanho do contêiner seja apropriado */
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+.logus::before {
+    position: absolute;
+    border-radius: 100%;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(242, 247, 0);
+    opacity: 0.2;
+    filter: blur(4rem);
+    top: 0;
+    left: 0;
+}
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
 }
 
 
