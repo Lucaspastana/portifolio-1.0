@@ -70,38 +70,44 @@ a:hover {
 /* INICIANDO BODY*/
 
 
-section.top-site {
-    padding: 40px 4%;
+.topo-site {
+    min-height: 100vh;
+    background-color: #00011a;
+
 }
 
 
 
 
 .action {
-    Display: Flex;
-    align-items: center;
+    margin: auto;
+    max-width: 1000px;
+    padding: 0 15px;
+}
+
+.flex {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.namelogocontainer{
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
     justify-content: space-between;
-    font-family: "sans-serif";
-    Font-size: 3.7em;
-    background-color: #00011a;
-    height: 600px;
-    padding: 0px;
-
-
+    -webkit-box-align: center;
+    align-items:center;
+    margin: 2rem 0px;
 }
 
 
 
 
 
-.box {
-    Display: Flex;
-    flex-direction: row;
-    align-items: start;
-    
 
-
-}
 
 
 
@@ -110,7 +116,7 @@ section.top-site {
     display: flex;
     flex-direction: row;
 
-    
+
 }
 
 
@@ -146,18 +152,19 @@ section.top-site {
 }
 
 
-
-.dinamico li {
+#animation {
     text-shadow: rgb(242, 247, 0) 7px 5px 20px;
     color: yellow;
     list-style: none;
-    font-size: 30px;
+    font-size: 2rem;
+    margin-top: -1.5rem;
     font-weight: 500;
-
-
+    margin-left:  5px;
+    opacity: 1;
 }
 
 .dinamico {
+    padding: 0px 0px;
     position: relative;
     display: inline-block;
     /* Certifique-se de que o span ocupa apenas o espaço do conteúdo */
@@ -173,40 +180,22 @@ section.top-site {
 
 
 @keyframes typing {
-    0% {
-        width: 0;
-    }
-
-    100% {
-        width: 100%;
-    }
+    from { width: 0; }
+    to { width: 100%; }
 }
 
 
-
-
-.img-topo {
-
+.logus {
     position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+    display: flex;
 }
 
-#javinha {
-    border-radius: 50px;
-}
 
-@keyframes flutuar {
-    0% {
-        top: 0;
-    }
 
-    100% {
-        top: 30px;
-    }
-}
+
 
 /*2seçao */
-.flex {
+.flex-2 {
     display: flex;
     width: 100%;
     min-height: 100vh;
@@ -254,11 +243,11 @@ section.top-site {
 .conteudo {
     font-family: sans-serif;
     width: 80%;
-    margin: 0px auto; 
+    margin: 0px auto;
     text-align: start;
     color: #f0f0f0;
     font-size: 25px;
-    gap: 1,5rem;
+    gap: 1, 5rem;
 }
 
 .img-sobre {
@@ -275,8 +264,11 @@ section.top-site {
 
 
 @keyframes load {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
-
-
