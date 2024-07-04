@@ -33,7 +33,8 @@ nav {
 
 
 #Logo {
-    color: #ffffff;
+    color: #db0000;
+    font-weight: 20px;
 }
 
 a {
@@ -126,6 +127,7 @@ a:hover {
     font-size: 34px;
     font-weight: bold;
     color: #ffeeee;
+    font-family: sans-serif;
 
 
 
@@ -225,7 +227,7 @@ a:hover {
 
 
 /*2seçao */
-.flex-2 {
+.flex- {
     display: flex;
     width: 100%;
     min-height: 100vh;
