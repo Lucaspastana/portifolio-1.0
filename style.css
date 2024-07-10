@@ -360,8 +360,20 @@ section .especiliadades .flex-3{
 
 /* formulario */
 
-section .formulario{
+.formulario{
     padding: 80px 4%;
+    min-height: 100vh;
+    background-color: #000000;
+
+}
+.interface-3{
+    color: #f0f0f0;
+    padding: 80px;
+    
+}
+.titulo{
+    display: flex;
+    justify-content: center;
 
 }
 form{
@@ -389,4 +401,12 @@ form input,textarea{
 form textarea{
     resize: none;
     max-height: 100px;
+}
+
+.titulo{animation: pulse 2s infinite;}
+@keyframes pulse {
+    0% {transform: translateX(-50%);}
+    
+   
+   
 }
