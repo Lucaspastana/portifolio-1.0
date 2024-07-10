@@ -195,8 +195,10 @@ a:hover {
 
 .logus {
     position: relative;
-    width: 400px;  /* Certifique-se de que o tamanho do contêiner seja apropriado */
-    height: 380px; /* Certifique-se de que o tamanho do contêiner seja apropriado */
+    width: 400px;
+    /* Certifique-se de que o tamanho do contêiner seja apropriado */
+    height: 380px;
+    /* Certifique-se de que o tamanho do contêiner seja apropriado */
     animation: flutuar 2s ease-in-out infinite alternate;
 }
 
@@ -212,6 +214,7 @@ a:hover {
     top: 0;
     left: 0;
 }
+
 @keyframes flutuar {
     0% {
         top: 0;
@@ -305,87 +308,133 @@ a:hover {
     }
 }
 
+/* carrosel*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.meus-projetos{
+    background-color: #010a27;
+
+}
+
+.card-list .card-item .user-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.card-list .card-item{
+    color: #f0f0f0;
+    background: (255,255,255,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*3 SECTION*/
-.especialidades{
+.especialidades {
     min-height: 100vh;
     background-color: #000000;
 }
 
-.interface-2{
+.interface-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 
 }
 
-.section.especialidades{
+.section.especialidades {
     padding: 40px 4%;
 
 }
-section .especiliadades .flex-3{
-    gap:50px;
+
+section .especiliadades .flex-3 {
+    gap: 50px;
 }
 
-.flex-3{
+.flex-3 {
     display: flex;
     flex-direction: row;
 }
 
-.especial-box{
+.especial-box {
     padding: 80px;
-    margin-top:  45px;
+    margin-top: 45px;
     border-radius: 20px;
     color: #ffffff;
     transition: .2s;
 }
-.especialidades .especial-box:hover{
+
+.especialidades .especial-box:hover {
     transform: scale(1.05);
     box-shadow: 0 0 8px #ffeeee;
 }
-.especialidades .especial-box i{
+
+.especialidades .especial-box i {
     font-size: 70px;
     color: #010a27;
 }
 
-.especialidades .especial-box h3{
+.especialidades .especial-box h3 {
     font-size: 28px;
-    margin:15px 0  ; /*em cima e em baixo 15px dos lados 0 */
+    margin: 15px 0;
+    /*em cima e em baixo 15px dos lados 0 */
 }
 
-.interface-2{
+.interface-2 {
     color: #f0f0f0;
 }
 
 /* formulario */
 
-.formulario{
+.formulario {
     padding: 80px 4%;
     min-height: 100vh;
     background-color: #000000;
 
 }
-.interface-3{
+
+.interface-3 {
     color: #f0f0f0;
     padding: 80px;
-    
+
 }
-.titulo{
+
+.titulo {
     display: flex;
     justify-content: center;
 
 }
-form{
+
+form {
     max-width: 500px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    flex-direction:column;
+    flex-direction: column;
     gap: 10px;
 }
 
-form input,textarea{
+form input,
+textarea {
     width: 100%;
     background-color: #414141;
     border: 0;
@@ -395,18 +444,23 @@ form input,textarea{
     color: #f0f0f0;
     font-size: 18px;
 
-    
+
 }
 
-form textarea{
+form textarea {
     resize: none;
     max-height: 100px;
 }
 
-.titulo{animation: pulse 2s infinite;}
+.titulo {
+    animation: pulse 2s infinite;
+}
+
 @keyframes pulse {
-    0% {transform: translateX(-50%);}
-    
-   
-   
+    0% {
+        transform: translateX(-50%);
+    }
+
+
+
 }
