@@ -313,11 +313,11 @@ a:hover {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .meus-projetos{
-    background-color: #010a27;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height:100vh;
+    background: url("img/baixados(1).png") #010a27 no-repeat center;
 
 }
 
@@ -325,14 +325,48 @@ a:hover {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+    padding: 4px;
 
 }
 .card-list .card-item{
     color: #f0f0f0;
-    background: (255,255,255,0.2);
+    background: rgba(255,255,255,0.2);
+    width: 400px;
+    padding: 35px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid (255,255,255,0.5);
+}
+.card-list .card-item .user-profession{
+    font-size: 1.15rem;
+    color: #f0f0f0;
+    font-weight: 500;
+    margin: 14px 0 40px;
+
 }
 
+.card-list .card-item .message-button{
+    font-size: 1.25rem;
+    padding: 10px 35px;
+    color: #010a27;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background: #f0f0f0;
+    transition: 0.2s ease;
+}
 
+.card-list .card-item .message-button:hover{
+    background: rgba(255,255,255,0.1);
+    border: 1px solid #fff;
+    color: #fff;
+}
 
 
 
