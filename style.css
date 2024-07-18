@@ -367,7 +367,11 @@ a:hover {
     border: 1px solid #fff;
     color: #fff;
 }
-
+.slide-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}
 
 
 
