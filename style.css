@@ -242,7 +242,7 @@ a:hover {
 }
 
 .SOBRE {
-    background-color: #1b1b1b;
+    background-color: #060606;
 
 }
 
@@ -317,7 +317,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     min-height:100vh;
-    background: url("img/baixados(1).png") #010a27 no-repeat center;
+    background: url("img/baixados(1).png") #000000 no-repeat center;
 
 }
 
