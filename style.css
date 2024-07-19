@@ -257,7 +257,7 @@ a:hover {
 .txt-person {
     display: flex;
     width: 100%;
-    min-height: 50vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: row;
     -webkit-box-pack: center;
@@ -313,10 +313,12 @@ a:hover {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .meus-projetos{
+    color: #f0f0f0;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height:100vh;
+    
     
     background: url("img/baixados(1).png") #000000 no-repeat center;
 
