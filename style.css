@@ -513,3 +513,15 @@ form textarea {
 
 
 }
+
+.em-breve{
+    color: #db0000;
+    padding: 5PX;
+    rotate: -60deg;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:#979191;
+    display: flex;
+    justify-content: center;
+}
