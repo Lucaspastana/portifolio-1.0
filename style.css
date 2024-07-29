@@ -462,12 +462,23 @@ section .especiliadades .flex-3 {
 
 /* formulario */
 
+
 .formulario {
-    padding: 80px 4%;
-    min-height: 100vh;
-    background-color: #000000;
+    padding: 70px;
+    background-color: #242424;
+   
+   
 
 }
+.subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
 
 .interface-3 {
     color: #f0f0f0;
@@ -475,24 +486,20 @@ section .especiliadades .flex-3 {
 
 }
 
-.titulo {
-    display: flex;
-    justify-content: center;
 
-}
 
 form {
     max-width: 500px;
-    margin: 0 auto;
+    margin: 0px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
     gap: 10px;
 }
 
 form input,
 textarea {
-    width: 100%;
+    width: 90%;
     background-color: #414141;
     border: 0;
     outline: 0;
@@ -500,27 +507,19 @@ textarea {
     border-radius: 15px;
     color: #f0f0f0;
     font-size: 18px;
+    box-shadow: rgb(231, 1, 1) 0px 0px 6px;
 
 
 }
 
 form textarea {
     resize: none;
-    max-height: 100px;
+    max-height: 50px;
 }
 
-.titulo {
-    animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-    0% {
-        transform: translateX(-50%);
-    }
 
 
 
-}
 
 .em-breve {
     color: #db0000;
@@ -531,6 +530,6 @@ form textarea {
     border-radius: 20px;
     background-color: #979191;
     display: flex;
-    justify-content: center;
-    
+    justify-content: start;
+
 }
