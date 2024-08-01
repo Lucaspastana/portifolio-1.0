@@ -466,32 +466,46 @@ section .especiliadades .flex-3 {
 .formulario {
     min-height: 80vh;
     background-color: #242424;
-    
+
 }
 
-.subtitle h2{
+.subtitle h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+  
 }
-form{
+
+form {
     padding-left: 40px;
     font-size: 30px;
 }
 
-form input{
+form input {
     display: flex;
     align-items: start;
     flex-direction: column;
-    margin-bottom: 10px;
-    height: 30px;
+    margin-bottom: 30px;
     border-radius: 10px;
-    
+    font-size: 30px;
+    height: 50px;
+    background-color: #ffffff;
+    box-shadow: #bb0000;
+
+
+
+
 
 }
-.contatos{
+
+.contatos {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
     
+
 
 }
 
