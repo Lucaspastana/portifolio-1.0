@@ -404,6 +404,7 @@ a:hover {
 
 
 /*3 SECTION*/
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
 .especialidades {
     min-height: 100vh;
     background-color: #000000;
@@ -422,6 +423,8 @@ a:hover {
     padding: 40px 4%;
 
 }
+
+  
 
 section .especiliadades .flex-3 {
     gap: 50px;
@@ -465,7 +468,7 @@ section .especiliadades .flex-3 {
 
 .formulario {
     min-height: 80vh;
-    background-color: #242424;
+    background-color: #131212;
 
 }
 
@@ -473,12 +476,14 @@ section .especiliadades .flex-3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: "Permanent Marker", cursive;
   
 }
 
 form {
     padding-left: 40px;
     font-size: 30px;
+
 }
 
 form input {
@@ -486,18 +491,51 @@ form input {
     align-items: start;
     flex-direction: column;
     margin-bottom: 30px;
-    border-radius: 10px;
     font-size: 30px;
-    height: 50px;
-    background-color: #ffffff;
-    box-shadow: #bb0000;
-
-
-
-
-
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    background: rgb(15, 15, 15);
+    border: 1px solid rgb(173, 0, 0);
+    outline: none;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+#nome-5{
+    
+    font-size: 20px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#email-5{
+    
+    font-size: 20px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#numero{
+    
+    font-size: 20px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
+
+
+form textarea{
+    resize: none;
+    width:400px;
+    height: 200px;
+    padding: 5px;
+    background: rgb(15, 15, 15);
+    border: 1px solid rgb(173, 0, 0);
+    outline: none;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
 .contatos {
     display: flex;
     flex-direction: row;
