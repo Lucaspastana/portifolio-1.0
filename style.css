@@ -364,7 +364,7 @@ a:hover {
 .card-list .card-item .message-button {
     font-size: 1.25rem;
     padding: 10px 35px;
-    color: #010a27;
+    color: #ec0000;
     border-radius: 6px;
     font-weight: 500;
     cursor: pointer;
@@ -450,7 +450,7 @@ section .especiliadades .flex-3 {
 
 .especialidades .especial-box i {
     font-size: 70px;
-    color: #010a27;
+    color: #f80000;
 }
 
 .especialidades .especial-box h3 {
@@ -477,13 +477,14 @@ section .especiliadades .flex-3 {
     align-items: center;
     justify-content: center;
     font-family: "Permanent Marker", cursive;
+    color: #ffffff;
   
 }
 
 form {
     padding-left: 40px;
     font-size: 30px;
-
+   
 }
 
 form input {
@@ -521,6 +522,7 @@ form input {
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
+    
 }
 
 
@@ -553,6 +555,16 @@ form textarea{
 
 }
 
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Permanent Marker", cursive;
+    background-color: #131212;
+    color: #f0f0f0;
+    
+}
 
 
 
