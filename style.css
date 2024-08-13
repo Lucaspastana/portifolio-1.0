@@ -554,7 +554,10 @@ form textarea{
     padding: 80px;
 
 }
-
+#envelope{
+    font-size:30px;
+   
+}
 
 footer{
     display: flex;
