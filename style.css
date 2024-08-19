@@ -562,13 +562,31 @@ form textarea {
 
 #envelope {
     font-size: 30px;
-
+}
+#icon-git{
+    font-size: 30px;
+}
+.contacts-secundarios{
+    
 }
 
 .email{
     font-family: "Oswald", sans-serif;
+    display: flex;
     font-size: 30px;
-    
+    justify-content: end;
+    flex-direction: row;
+    padding-right: 350px;
+    text-shadow: rgb(247, 0, 0) 7px 5px 20px;
+    color: rgb(255, 0, 0);
+}
+.redes{
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    font-size: 30px;
+    text-shadow: rgb(247, 0, 0) 7px 5px 20px;
+    color: rgb(255, 0, 0);
+
 }
 
 footer {
