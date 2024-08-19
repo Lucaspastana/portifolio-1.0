@@ -405,6 +405,7 @@ a:hover {
 
 /*3 SECTION*/
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+
 .especialidades {
     min-height: 100vh;
     background-color: #000000;
@@ -424,7 +425,7 @@ a:hover {
 
 }
 
-  
+
 
 section .especiliadades .flex-3 {
     gap: 50px;
@@ -464,7 +465,7 @@ section .especiliadades .flex-3 {
 }
 
 /* formulario */
-
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap');
 
 .formulario {
     min-height: 80vh;
@@ -478,13 +479,13 @@ section .especiliadades .flex-3 {
     justify-content: center;
     font-family: "Permanent Marker", cursive;
     color: #ffffff;
-  
+
 }
 
 form {
     padding-left: 40px;
     font-size: 30px;
-   
+
 }
 
 form input {
@@ -502,34 +503,37 @@ form input {
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
-#nome-5{
-    
+
+#nome-5 {
+
     font-size: 20px;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
 }
-#email-5{
-    
+
+#email-5 {
+
     font-size: 20px;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
 }
-#numero{
-    
+
+#numero {
+
     font-size: 20px;
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
-    
+
 }
 
 
 
-form textarea{
+form textarea {
     resize: none;
-    width:400px;
+    width: 400px;
     height: 200px;
     padding: 5px;
     background: rgb(15, 15, 15);
@@ -538,13 +542,14 @@ form textarea{
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
 }
+
 .contatos {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     padding: 100px;
-    
+
 
 
 }
@@ -554,19 +559,26 @@ form textarea{
     padding: 80px;
 
 }
-#envelope{
-    font-size:30px;
-   
+
+#envelope {
+    font-size: 30px;
+
 }
 
-footer{
+.email{
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    
+}
+
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Permanent Marker", cursive;
     background-color: #131212;
     color: #f0f0f0;
-    
+
 }
 
 
