@@ -62,30 +62,33 @@ a:hover {
 #html {
     color: rgb(106, 106, 255);
 }
-
 #css {
     color: orangered;
 }
-
-
 /* INICIANDO BODY*/
 
-
+.home-img img{
+    position: relative;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid #979191;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.home-img img:hover{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
 .topo-site {
     min-height: 100vh;
     background-color: #000000;
 
 }
-
-
-
-
 .action {
     margin: auto;
     max-width: 1000px;
     padding: 0 15px;
 }
-
 .flex {
     width: 100%;
     min-height: 100vh;
@@ -94,7 +97,6 @@ a:hover {
     -webkit-box-pack: center;
     justify-content: center;
 }
-
 .flex .namelogocontainer {
     width: 100%;
     display: flex;
@@ -104,21 +106,10 @@ a:hover {
     align-items: center;
     margin: 2rem 0px;
 }
-
-
-
-
-
-
-
-
-
 .icones-home {
     margin-background: 20px;
     display: flex;
     flex-direction: row;
-
-
 }
 
 
@@ -128,9 +119,6 @@ a:hover {
     font-weight: bold;
     color: #ffeeee;
     font-family: sans-serif;
-
-
-
 }
 
 .intro-text {
@@ -144,8 +132,6 @@ a:hover {
 
 .container {
     display: inline-flex;
-
-
 }
 
 .container .estatico {
@@ -224,10 +210,6 @@ a:hover {
         top: 30px;
     }
 }
-
-
-
-
 
 /*2seçao */
 .flex- {
@@ -323,8 +305,6 @@ a:hover {
     background: url("img/baixados(1).png") #000000 no-repeat center;
 
 }
-
-
 .card-list .card-item .user-image {
 
     width: 150px;
@@ -336,7 +316,6 @@ a:hover {
 
 
 }
-
 .card-list .card-item {
 
     color: #f0f0f0;
@@ -351,7 +330,6 @@ a:hover {
     justify-content: center;
     border: 1px solid (255, 255, 255, 0.5);
 }
-
 .card-list .card-item .user-profession {
     font-size: 1.15rem;
     color: #f0f0f0;
@@ -360,7 +338,6 @@ a:hover {
 
 
 }
-
 .card-list .card-item .message-button {
     font-size: 1.25rem;
     padding: 10px 35px;
@@ -373,36 +350,17 @@ a:hover {
     transition: 0.2s ease;
 
 }
-
 .card-list .card-item .message-button:hover {
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid #fff;
     color: #fff;
-
 }
-
 .slide-wrapper {
     overflow: hidden;
     max-width: 1200px;
     margin: 0 70px 55px;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*3 SECTION*/
 @import url('https://fonts.googleapis.com/css2?family=Honk&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
 
@@ -528,9 +486,6 @@ form input {
     font-style: normal;
 
 }
-
-
-
 form textarea {
     resize: none;
     width: 400px;
@@ -549,11 +504,7 @@ form textarea {
     align-items: center;
     justify-content: space-evenly;
     padding: 100px;
-
-
-
 }
-
 .interface-3 {
     color: #f0f0f0;
     padding: 80px;
@@ -586,7 +537,6 @@ form textarea {
     font-size: 30px;
     text-shadow: rgb(247, 0, 0) 7px 5px 20px;
     color: rgb(255, 0, 0);
-
 }
 
 footer {
@@ -598,19 +548,7 @@ footer {
     color: #f0f0f0;
 
 }
-
-
-
-
-
-
-
-
-
-
 /*parte do carrosel*/
-
-
 .em-breve {
     color: #db0000;
     padding: 5PX;
