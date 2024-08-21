@@ -511,14 +511,15 @@ form textarea {
 
 }
 
-#envelope {
-    font-size: 30px;
-}
-#icon-git{
-    font-size: 30px;
-}
 .contacts-secundarios{
+    font-size: 30px;
+    display: block;
+    padding: 20px;
+    color: #f0f0f0
     
+}
+#envelope{
+    color: #001747;
 }
 
 .email{
